@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+}
+.box{
+    margin: 0;
+    width: 50vw;
+    height: 50vh;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: darkgoldenrod;
+}
+.box4{
+    background-color: pink;
+}
+.circle{
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    position: absolute;
+}
+.circle1{
+    border-bottom-right-radius: 100%;
+}
+.circle2{
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+.circle3{
+    bottom: 0;
+    border-top-right-radius: 100%;
+}
+.circle4{
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;
+}
+.little_Circle{
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+}
+.little_Circle1{
+    position: absolute;
+    top: -10vh;
+    left: 45vw;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.little_Circle2{
+    position: absolute;
+    bottom: -10vh;
+    left: 45vw;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+.square{
+    width: 30vh;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    left: 42vw;
+    top: 35vh;
+}
+.red_circle{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    left: 5vh;  
+    top: 5vh;  
+}
+.circle5{
+    border-radius: 100%;
+    position: relative;
+    top: 15vh;
+    left: 20vw;
+}
+.little_square{
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+    position: relative;
+    left: 5vh;
+    top: 5vh;
+}
