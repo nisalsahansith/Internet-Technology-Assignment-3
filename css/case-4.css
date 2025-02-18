@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 2vh;
+}
+.cardBar{
+    width: 100%;
+    height: 6vh;
+    text-align: start;
+    padding: 10px;
+}
+.card{
+    text-align: center;
+    height: 100vh;
+}
+.card h1{
+    padding: 25vh;
+    font-size: 120px;
+}
+.cardy{
+    background-color: white;
+}
+.bary{
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+.card1{
+    background-color: lightskyblue;
+}
+.bar1{
+    background-color: blue;
+    position: sticky;    
+    top: 0;
+}
+.card2{
+    background-color: lightgrey;
+}
+.bar2{
+    background-color: rgb(65, 64, 64);
+    position: sticky;
+    top: 0;
+}
+.card3{
+    background-color: red;
+}
+.bar3{
+    background-color: rgb(119, 14, 14);
+    position: sticky;
+    top: 0;
+}
