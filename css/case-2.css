@@ -9,11 +9,9 @@ img{
     width: 100px;
     height: 5vh;
 }
-video{
+.content img{
     width: 400px;
-    height: 400px;
-    object-fit: cover;
-    padding: 0;
+    height: 500px;
 }
 a{
     text-decoration: none;
