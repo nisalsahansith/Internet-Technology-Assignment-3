@@ -1,7 +1,7 @@
 body{
     margin: 0;
     align-items: center;
-    height: 338vh;
+    height: 341.6vh;
 }
 .circle-wraper{
     position: fixed;
@@ -9,35 +9,37 @@ body{
     left: 40%;
 }
 .circle{
-    width: 40vh;
-    height: 40vh;
-    border: 2vh solid gray;
-    border-radius: 100%;
-    position: absolute;
-    left: 40%;
-    top: 30%;
+    width: 300px;
+        height: 300px;
+        border: 20px solid gray;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .redCircle{
-    width: 36vh;
-    height: 36vh;
-    border: 2vh solid red;
-    border-radius: 100%;
-    position: absolute;
-    left: 0.03vh;
-    top: 0.1vh;
+    width: 280px;
+        height: 280px;
+        border: 2vh solid red;
+        border-radius: 100%;
+        position: absolute;
+        
 }
 
 .inside1{
-    width: 36vh;
-    height: 36vh;
+    width: 280px;
+    height: 280px;
     background-color: rgb(70, 9, 70);
     border-radius: 100%;
     color: white;
     font-size: 30px;
     text-align: center;
     position: relative;
-    top: 33.9vh;
-    left: 83.1vh;
+    top: 34vh;
+    left: 83.3vh;
 }
 li{
     list-style: none;
@@ -45,8 +47,8 @@ li{
     top: 16vh;
 }
 .inside2 {
-    width: 36vh;
-    height: 36vh;
+    width: 280px;
+    height: 280px;
     background-color: rgb(6, 117, 139);
     border-radius: 100%;
     color: white;
@@ -54,11 +56,11 @@ li{
     text-align: center;
     position: relative;
     top: 100vh;
-    left: 83.1vh;
+    left: 83.3vh;
 }
 .inside3 {
-    width: 36vh;
-    height: 36vh;
+    width: 280px;
+    height: 280px;
     background-color: salmon;
     border-radius: 100%;
     color: white;
@@ -66,6 +68,5 @@ li{
     text-align: center;
     position: relative;
     top: 200vh;
-    left: 83.1vh;
+    left: 83.3vh;
 }
-
